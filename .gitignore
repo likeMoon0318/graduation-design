@@ -1,0 +1,21 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+
+# 本地构建产物与校验报告
+.build/
+
+# 中间态数据（可复现）
+*/data/raw/parts/
+
+# 大数据文件：全部可由 run_all.py 一键重新生成（见 README）
+项目一_电商销售数据分析与可视化/data/
+项目二_函数极值寻优/data/
+
+# 运行期临时文件
+*.log
+*.tmp
